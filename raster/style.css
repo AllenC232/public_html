@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background-image: url('images/background.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.me {
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    max-height: 90vh;
+}
+
+
+.svg-link {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.svg-link:hover {
+    color: crimson;
+}
+
+.svg-link:active {
+    color: darkred;
+}

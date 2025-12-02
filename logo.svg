@@ -1,0 +1,14 @@
+<svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
+    <title id="title">Allen Chand — AC logo for web design projects</title>
+    <desc id="desc">Knockout initials "AC" within a rounded square; click to open assignments directory.</desc>
+
+    <defs>
+        <mask id="knockoutMaskInline">
+            <rect x="0" y="0" width="200" height="200" fill="white" />
+            <text x="50%" y="58%" font-family="Helvetica, Arial, sans-serif" font-weight="700" text-anchor="middle"
+                font-size="84" fill="black" dominant-baseline="middle">AC</text>
+        </mask>
+    </defs>
+
+    <rect x="12" y="12" width="176" height="176" rx="24" ry="24" mask="url(#knockoutMaskInline)" />
+</svg>
